@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1702792B0A97CC00888396 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1702782B0A97CC00888396 /* DetailView.swift */; };
 		0A44EB372B03D45A00051C1C /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44EB362B03D45A00051C1C /* AppetizerListCell.swift */; };
 		0A44EB392B03D5BB00051C1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44EB382B03D5BB00051C1C /* NetworkManager.swift */; };
 		0A44EB3B2B03DD5900051C1C /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44EB3A2B03DD5900051C1C /* APError.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1702782B0A97CC00888396 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0A44EB362B03D45A00051C1C /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		0A44EB382B03D5BB00051C1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0A44EB3A2B03DD5900051C1C /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		0AD30CD02B06A805009A8D0C /* AppetizerListView */ = {
 			isa = PBXGroup;
 			children = (
+				0A1702782B0A97CC00888396 /* DetailView.swift */,
 				0AF7DD7B2B02857200F5AD71 /* AppetizerListView.swift */,
 				0ACF0C3B2B05356D006C628B /* AppetizerListViewModel.swift */,
 			);
@@ -410,6 +413,7 @@
 				0AF7DD822B0286EE00F5AD71 /* AppetizerTabView.swift in Sources */,
 				0AD30CC82B067E59009A8D0C /* Alert.swift in Sources */,
 				0AF7DD7C2B02857200F5AD71 /* AppetizerListView.swift in Sources */,
+				0A1702792B0A97CC00888396 /* DetailView.swift in Sources */,
 				0AF7DD802B0285AB00F5AD71 /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
