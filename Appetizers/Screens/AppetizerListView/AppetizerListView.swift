@@ -17,6 +17,8 @@ struct AppetizerListView: View {
             NavigationView {
                 List(viewModel.appetizers) {appetizer in
                     AppetizerListCell(appetizer: appetizer)
+                        .listRowSeparator(.hidden)
+                        //.listRowSeparatorTint(.brandPrimarySwiftUI)
                         .onTapGesture {
                             viewModel.selectedAppetizer = appetizer
                             viewModel.isShowingDetail = true
@@ -24,6 +26,7 @@ struct AppetizerListView: View {
                     
                 }
                 .navigationTitle("🍟 Appetizers")
+                .listStyle(.inset)
                 .disabled(viewModel.isShowingDetail)
             }
             .onAppear {
