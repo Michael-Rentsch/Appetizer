@@ -75,7 +75,7 @@ final class NetworkManager {
     
 
     
-    func downloadImage(fromeURLString urlString: String, completed: @escaping (UIImage?) -> Void) {
+    func downloadImage(fromURLString urlString: String, completed: @escaping (UIImage?) -> Void) {
         
         let cacheKey = NSString(string: urlString)
         
@@ -92,7 +92,7 @@ final class NetworkManager {
         
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
             
-            guard let data = data, let image = UIImage(data: data) else {
+            guard let data, let image = UIImage(data: data) else {
                 completed(nil)
                 return
             }
